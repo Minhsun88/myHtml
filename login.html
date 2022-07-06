@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <link rel="stylesheet" href="Topmenu.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav">
+          <ul>
+            <li id="L"><a href="index.html"><img src="home.png" ></a></li>
+            <div id = "myLinks">
+            <li id="R"><a href="#m">客服中心</a></li>
+            <li id="R"><a href="#h">商品目錄</a></li>
+            <li id="R"><a href="#p">原料來源</a></li>
+            <li id="R"><a href="#d">品牌概念</a></li>
+            </div>
+            <li class="viewing" id="log"> <a href="login.html">登入/註冊</a></li>
+            <li> 
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a></li>
+        </ul>
+      </div>
+      
+    <script src="topmenu.js"></script>
+          
+    </head>
+    <body>
+        <div class="box2">
+          <h1 style="text-align: center;">會員登入</h1>
+          <h3 style="margin-left:5%;">帳號:</h3>
+          <input class="inputbox" type="text" id="account" name="account" placeholder="請輸入帳號"><br>
+          <h3 style="margin-left:5%;">密碼:</h3>
+          <input class="inputbox" type="password" id="password" name="password" placeholder="請輸入密碼"><br>
+          <input class="login" type="button" onclick="location.href='#loged'" value="登入">
+          <input class="submit" type="button" onclick="location.href='submit.html'" value="註冊">
+        </div>
+    </body>
+</html>
