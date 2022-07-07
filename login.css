@@ -8,16 +8,7 @@
     box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
 }
 }
-@media screen and (max-width :1340px){
-  .box2{
-      margin: 0 auto;
-      margin-top: 100px;
-      height: 500px;
-      width: 800px;
-      background: rgb(207, 207, 174);
-      box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
-  }
-  }
+/*這是測試修改*/
 @media screen and (max-width :1040px){
     .box2{
       margin: 0 auto;
