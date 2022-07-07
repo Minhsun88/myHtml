@@ -1,0 +1,74 @@
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="sub_tab.css">
+    <link rel="stylesheet" href="Topmenu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="topmenu.js"></script>
+    <div class="topnav">
+      <ul>
+        <li id="L"><a href="index.html"><img src="home.png" ></a></li>
+        <div id = "myLinks">
+        <li id="R"><a href="#m">客服中心</a></li>
+        <li id="R"><a href="#h">商品目錄</a></li>
+        <li id="R"><a href="#p">原料來源</a></li>
+        <li id="R"><a href="#d">品牌概念</a></li>
+        </div>
+        <li class="viewing" id="log"> <a href="login.html">登入/註冊</a></li>
+        <li> 
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a></li>
+    </ul>
+    </div>
+    </head>
+
+    <body>
+            <div class="box2">
+              <h1 style="text-align: center;">資料確認</h1>
+              <table border="1">
+                <tr>
+                    <td><strong>姓名</strong></td>
+                    <td><p id="name"></p></td>
+                    <td><strong>性別</strong></td>
+                    <td><p id="sex"></td>
+                    <td><strong>生日</strong></td>
+                    <td><p id="bd"></td>
+                </tr>
+                <tr>
+                    <td><strong>住址</strong></td>
+                    <td colspan="5"><p id="add"></td>
+                </tr> 
+                <tr>
+                    <td><strong>Email</strong></td>
+                    <td colspan="5"><p id="email"></td>
+                </tr>
+                <tr>
+                    <td><strong>手機</strong></td>
+                    <td colspan="5"><p id="phone"></td>
+                </tr>
+                <tr>
+                    <td><strong>帳號</strong></td>
+                    <td colspan="5"><p id="account"></td>
+                </tr>
+                <tr>
+                    <td><strong>密碼</strong></td>
+                    <td colspan="5"><p id="password"></td>
+                </tr>
+              </table>
+              <form action="login.html">
+                <input type="submit" class="submit" value="送出">
+              </form>
+            </div>
+            <script>
+                document.getElementById("name").innerHTML = localStorage.getItem("name");
+                document.getElementById("sex").innerHTML = localStorage.getItem("sex");
+                document.getElementById("bd").innerHTML = localStorage.getItem("bd");
+                document.getElementById("add").innerHTML = localStorage.getItem("add");
+                document.getElementById("email").innerHTML = localStorage.getItem("email");
+                document.getElementById("phone").innerHTML = localStorage.getItem("phone");
+                document.getElementById("account").innerHTML = localStorage.getItem("account");
+                document.getElementById("password").innerHTML = localStorage.getItem("password");
+                </script>
+    </body>
+</html>
