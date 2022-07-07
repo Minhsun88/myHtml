@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <script src="member.js"></script>
+        <style>
+            .background{
+                background-color: rgb(249, 197, 100);
+                width: 100%;
+                height: 100%;
+                margin: auto;
+            }
+            .inside{
+                margin: auto;
+                width: 800px;
+                height: 676px;
+                background-color: white;
+            }
+            table{
+                text-align: center;
+                margin: auto;
+                width: 800px;
+                border-collapse: collapse;
+            }
+            th{
+                background-color: rgb(187, 237, 237);
+                padding: 10px;
+                border-top: solid 1px;
+                border-bottom: solid 1px;
+            }
+            td{
+                padding: 10px;
+            }
+            tr:nth-last-of-type(even){
+                background-color: rgb(246, 244, 244);
+            }
+            tr:nth-last-of-type(odd){
+                background-color: rgb(226, 220, 220);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background">
+            <div class="inside">
+                <h1 style="padding-left: 5%; padding-top: 1%; text-decoration: underline;">會員名冊:</h1>
+                <table >
+                    <tr >
+                        <th width=10% ><input  name="checkc" onclick="checkall(this)" type="checkbox"></th>
+                        <th width=20%><strong>姓名</strong></th>
+                        <th width=15%><strong>性別</strong></th>
+                        <th width=25%><strong>電話</strong></th>
+                        <th width=30%><strong>電郵</strong></th>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>陳水扁</td>
+                        <td>男</td>
+                        <td>0900-000000</td>
+                        <td>aaa@examlpe.com</td>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>吳淑珍</td>
+                        <td>女</td>
+                        <td>0911-111111</td>
+                        <td>bbb@examlpe.com</td>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>胡瓜</td>
+                        <td>男</td>
+                        <td>0922-222222</td>
+                        <td>ccc@examlpe.com</td>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>林竹葉</td>
+                        <td>男</td>
+                        <td>0933-333333</td>
+                        <td>ddd@examlpe.com</td>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>李淑惠</td>
+                        <td>女</td>
+                        <td>0944-444444</td>
+                        <td>eee@examlpe.com</td>
+                      </tr>
+                      <tr>
+                        <td><input name="c[]" type="checkbox"></td>
+                        <td>潘玉麟</td>
+                        <td>女</td>
+                        <td>0955-555555</td>
+                        <td>fff@examlpe.com</td>
+                      </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
