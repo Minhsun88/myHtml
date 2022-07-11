@@ -1,0 +1,100 @@
+@media screen and (max-width : 1640px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1000px;
+    height: 500px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width : 1300px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 850px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width : 1100px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 700px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width : 900px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 600px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width : 770px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 430px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+@media screen and (max-width : 500px) {
+  .content {
+    margin: 0 auto;
+    margin-top: 100px;
+    height: 500px;
+    width: 300px;
+    background: rgb(207, 207, 174);
+    box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  }
+}
+
+h1 {
+  position: relative;
+  top: 15px;
+}
+
+.inputbox {
+  margin-left: 5%;
+  width: 90%;
+  height: 7%;
+}
+
+.login {
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 90%;
+  height: 7%;
+  background-color: orangered;
+}
+
+.login:hover {
+  background-color: #ddd;
+}
+
+.submit {
+  margin-left: 5%;
+  margin-top: 4%;
+  width: 90%;
+  height: 7%;
+  background-color: orangered;
+}
+
+.submit:hover {
+  background-color: #ddd;
+}
