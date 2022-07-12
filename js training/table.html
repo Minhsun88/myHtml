@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>資料確認表單</title>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" href = "table.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class = "content">
+      <h1>資料確認</h1>
+      <table border = "1">
+        <tr>
+          <td>姓名</td>
+          <td id = "name"></td>
+          <td>性別</td>
+          <td id = "sex"></td>
+        </tr>
+        <tr>
+          <td>生日</td>
+          <td colspan = "3" id = "birthday"></td>
+        </tr>
+        <tr>
+          <td>住址</td>
+          <td colspan = "3" id = "address"></td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td colspan = "3" id = "email"></td>
+        </tr>
+        <tr>
+          <td>手機</td>
+          <td colspan = "3" id = "phone"></td>
+        </tr>
+        <tr>
+          <td>帳號</td>
+          <td colspan = "3" id = "account"></td>
+        </tr>
+        <tr>
+          <td>密碼</td>
+          <td colspan = "3" id = "password"></td>
+        </tr>
+      </table>
+      <form action = "#index">
+        <input type = "submit" class = "submit" value = "送出">
+      </form>
+    </div>
+    <script>
+      document.getElementById("name").innerHTML = localStorage.getItem("name");
+      document.getElementById("sex").innerHTML = localStorage.getItem("sex");
+      document.getElementById("birthday").innerHTML = localStorage.getItem("birthday");
+      document.getElementById("address").innerHTML = localStorage.getItem("address");
+      document.getElementById("email").innerHTML = localStorage.getItem("email");
+      document.getElementById("phone").innerHTML = localStorage.getItem("phone");
+      document.getElementById("account").innerHTML = localStorage.getItem("account");
+      document.getElementById("password").innerHTML = localStorage.getItem("password");
+    </script>
+  </body>
+</html>
